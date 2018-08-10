@@ -245,6 +245,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.health.storage@1.0-service
 
+# Storage health HAL
+PRODUCT_PACKAGES += \
+    android.hardware.health.storage@1.0-service
+
 # HIDL
 PRODUCT_PACKAGES += \
     libhidltransport.vendor \
