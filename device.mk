@@ -287,6 +287,7 @@ PRODUCT_BOOT_JARS += \
 
 # Init
 PRODUCT_PACKAGES += \
+    fstab.zram \
     init.qcom.post_boot.sh \
     init.qcom.rc \
     init.qcom.sh \
