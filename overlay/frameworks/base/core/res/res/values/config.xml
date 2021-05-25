@@ -675,4 +675,9 @@
 
     <!-- Determines whether the shell features all run on another thread. -->
     <bool name="config_enableShellMainThread">true</bool>
+
+    <!-- Enables or disables fading edges when marquee is enabled in TextView.
+         Off by befault, since the framebuffer readback used to implement the
+         fading edges is prohibitively expensive on most GPU's. -->
+    <bool name="config_ui_enableFadingMarquee">true</bool>
 </resources>
