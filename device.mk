@@ -50,7 +50,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService-Soong \
-    com.dsi.ant.antradio_library \
     com.dsi.ant@1.0.vendor
 
 # Audio
