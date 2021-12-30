@@ -122,6 +122,9 @@ on post-fs-data
     chmod 0660 /dev/tfa_rpc
     chmod 0660 /dev/tfa_control
 
+    # Haptics
+    write /sys/class/leds/vibrator/vmax 28
+
 on early-boot
     start vendor.sensors
 
@@ -132,6 +135,11 @@ on boot
     write /sys/class/thermal/thermal_message/sconfig 0
 
 on property:sys.boot_completed=1
+    # Haptics
+    write /sys/class/leds/vibrator/index 3
+    write /sys/class/leds/vibrator/duration 100
+    write /sys/class/leds/vibrator/boot_vibrator 1
+
     # Runtime fs tuning
     write /sys/block/sda/queue/read_ahead_kb 128
     write /sys/block/sda/queue/nr_requests 128
