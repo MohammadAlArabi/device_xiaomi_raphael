@@ -692,4 +692,13 @@
         </interface>
         <fqname>@1.0::IMotor/default</fqname>
     </hal>
+    <hal format="hidl">
+        <name>vendor.qti.qspmhal</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IQspmhal</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </manifest>
