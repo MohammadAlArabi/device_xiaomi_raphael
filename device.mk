@@ -455,7 +455,7 @@ PRODUCT_PACKAGES += \
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
-    RemovePkgs
+    RemovePackages
 
 # Sensors
 PRODUCT_PACKAGES += \
