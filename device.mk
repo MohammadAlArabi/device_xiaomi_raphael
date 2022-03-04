@@ -59,7 +59,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@6.0-impl
 
 PRODUCT_PACKAGES += \
-    audio.a2dp.default \
     audio.bluetooth.default \
     audio.primary.default \
     audio.primary.msmnile \
