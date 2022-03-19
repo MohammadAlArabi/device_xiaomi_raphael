@@ -39,12 +39,14 @@ public class DiracSettingsFragment extends PreferenceFragment
     private static final String PREF_HEADSET = "dirac_headset_pref";
     private static final String PREF_HIFI = "dirac_hifi_pref";
     private static final String PREF_PRESET = "dirac_preset_pref";
+    private static final String PREF_SCENE = "scenario_selection";
 
     private MainSwitchPreference mSwitchBar;
 
     private ListPreference mHeadsetType;
     private ListPreference mPreset;
     private SwitchPreference mHifi;
+    private ListPreference mScenes;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -69,6 +71,10 @@ public class DiracSettingsFragment extends PreferenceFragment
         mHeadsetType.setEnabled(!hifiEnable && enhancerEnabled);
         mPreset.setEnabled(!hifiEnable && enhancerEnabled);
         mHifi.setEnabled(enhancerEnabled);
+
+        mScenes = (ListPreference) findPreference(PREF_SCENE);
+        mScenes.setOnPreferenceChangeListener(this);
+        mScenes.setEnabled(enhancerEnabled);
     }
 
     @Override
@@ -87,6 +93,9 @@ public class DiracSettingsFragment extends PreferenceFragment
             case PREF_PRESET:
                 DiracUtils.setLevel((String) newValue);
                 return true;
+            case PREF_SCENE:
+                DiracUtils.setScenario(Integer.parseInt(newValue.toString()));
+                return true;
             default:
                 return false;
         }
@@ -100,6 +109,7 @@ public class DiracSettingsFragment extends PreferenceFragment
         mHifi.setEnabled(isChecked);
         mHeadsetType.setEnabled(isChecked);
         mPreset.setEnabled(isChecked);
+        mScenes.setEnabled(isChecked);
 
         if (!isChecked) {
             mHifi.setChecked(false);
