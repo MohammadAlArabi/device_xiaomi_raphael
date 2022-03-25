@@ -342,6 +342,12 @@
     <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
     <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
 
+    <!-- If we allow automatic adjustment 
+    of screen brightness while dozing, how 
+    many times we want to reduce it to preserve the 
+    battery. Value of 100% means no scaling. -->
+    <item name="config_screenBrightnessDozeFloat" format="float" type="dimen">0.07874</item>
+
     <!-- Whether the always on display mode is available. -->
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 
