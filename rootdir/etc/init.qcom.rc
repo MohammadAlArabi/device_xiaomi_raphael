@@ -255,9 +255,6 @@ service iop /vendor/bin/iop
     group root
     socket iop seqpacket 0666 root system
 
-service vendor.ssr_setup /vendor/bin/ssr_setup
-    oneshot
-
 on property:ro.vendor.iocgrp.config=1
     mkdir /dev/blkio
     mount cgroup none /dev/blkio blkio
