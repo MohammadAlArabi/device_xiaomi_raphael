@@ -18,6 +18,9 @@ $(call inherit-product, device/xiaomi/raphael/device.mk)
 # Inherit some common lineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common.mk)
 
+# v4afx
+$(call inherit-product, vendor/v4afx/config.mk)
+
 # RisingOs flags
 RISING_CHIPSET := SDM855
 RISING_MAINTAINER := Mohammad-Al-Arabi
