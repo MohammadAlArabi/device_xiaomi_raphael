@@ -46,3 +46,6 @@ allow xiaomiparts {
 allow xiaomiparts sysfs_thermal:file w_file_perms;
 
 allow xiaomiparts default_prop:file { read };
+
+allow xiaomiparts sysfs_vibrator:dir search;
+allow xiaomiparts sysfs_vibrator:file rw_file_perms;
