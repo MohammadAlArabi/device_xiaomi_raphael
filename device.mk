@@ -425,6 +425,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.stepcounter.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepcounter.xml \
     frameworks/native/data/etc/android.hardware.sensor.stepdetector.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepdetector.xml \
 
+# Shim
+PRODUCT_PACKAGES += \
+    libwatermark_shim
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
