@@ -36,6 +36,10 @@ on early-init
     rm /data/resource-cache
     rm /data/system/package_cache
 
+    # Remove some data cache
+    rm /data/resource-cache
+    rm /data/system/package_cache
+
     # Change ownership of hw_recovery related nodes
     chown system graphics /sys/kernel/debug/dri/0/debug/dump
     chown system graphics /sys/kernel/debug/dri/0/debug/recovery_reg
