@@ -437,6 +437,7 @@ PRODUCT_COPY_FILES += \
 
 # Shim
 PRODUCT_PACKAGES += \
+    libshim_libcdfw_remote_api \
     libwatermark_shim
 
 # Telephony
