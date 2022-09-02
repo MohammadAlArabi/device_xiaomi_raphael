@@ -9,3 +9,10 @@ cc_library_shared {
     srcs: ["libwatermark_shim.c"],
     vendor: true,
 }
+
+// libshim_libcdfw_remote_api
+cc_library_shared {
+    name: "libshim_libcdfw_remote_api",
+    srcs: ["libshim_libcdfw_remote_api.cpp"],
+    compile_multilib: "64",
+}
