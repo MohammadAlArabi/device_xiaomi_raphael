@@ -24,9 +24,6 @@ vendor.camera.enableTOFInterface=TRUE
 # Charger
 ro.charger.enable_suspend=true
 
-# FUSE passthrough
-persist.sys.fuse.passthrough.enable=true
-
 # GPS
 persist.vendor.overlay.izat.optin=rro
 
