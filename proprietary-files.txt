@@ -770,44 +770,54 @@ vendor/lib64/vendor.qti.gnss@4.0-service.so
 vendor/lib64/vendor.qti.gnss@4.0.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 
-# Graphics - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+# Graphics (Adreno) (vendor) - from LA.UM.9.14.r1-20200-LAHAINA.QSSI13.0
 -vendor/app/com.qualcomm.qti.gpudrivers.msmnile.api30/com.qualcomm.qti.gpudrivers.msmnile.api30.apk|48806ee3413a591ab35a262b3c0f88fd8ea85fbf
-vendor/lib/egl/eglSubDriverAndroid.so|efd9fae6bdfeafbe6351bfec173528a1749dbebd
-vendor/lib/egl/libEGL_adreno.so|1d06e312354df4013d940774453105085b60ca8c
-vendor/lib/egl/libGLESv1_CM_adreno.so|715f3463528f1e74ffa02627ee5916a09e0748f5
-vendor/lib/egl/libGLESv2_adreno.so|9d66d9a8075577c2171a0541be4d46dab695e47b
-vendor/lib/egl/libq3dtools_adreno.so|9ec9c053592e58be935e8ae5e0a9d362c101773a
-vendor/lib/egl/libq3dtools_esx.so|d63b314113729e6d5c4959d3d548f50d2ed0b45d
-vendor/lib/libC2D2.so|91f015cad79024fdbb6a5603cce48693e58a4510
-vendor/lib/libCB.so|6871ab7da310070d4d18839fc107766886b8f0ed
-vendor/lib/libOpenCL.so|7e06bf784e1c4e1b89dbe811b038efcc7c1221a0
-vendor/lib/libVkLayer_q3dtools.so|d1829902b60bf5d5573321e19d6fcb2bce85d5df
-vendor/lib/libadreno_utils.so|1ab5eba1b8df146055ab896e08f53da1fbf91828
-vendor/lib/libc2d30_bltlib.so|9977576a557bef02de296e742a4eeecc711fad9c
-vendor/lib/libgpudataproducer.so|31cb2280c5da7840fb2e386234d1f89b72fd00a2
-vendor/lib/libgsl.so|f747acef071b562fab07dc195ee01a8d08d4247d
-vendor/lib/libllvm-glnext.so|12ae84bc617d4e0151188c06e8e88dc0a88ffa63
-vendor/lib/libllvm-qcom.so|a22ead3b1d98004d378e44bded4bb341fe009ba7
-vendor/lib64/egl/eglSubDriverAndroid.so|f0ba5a87f8e74b3cd1bf4c556ebefcec8441d48d
-vendor/lib64/egl/libEGL_adreno.so|bc3f435342068f4164a9c54dfb5ac8644f488268
-vendor/lib64/egl/libGLESv1_CM_adreno.so|0a2a648ca2dcd887ea62860bbfa2ef397f01d42d
-vendor/lib64/egl/libGLESv2_adreno.so|1c63afc23908547f4be63059eeeed98a7cd39905
-vendor/lib64/egl/libq3dtools_adreno.so|189b9c3d400c6a98c87582b8df0910530cba6d44
-vendor/lib64/egl/libq3dtools_esx.so|31448447c008057be5ab6e5485ba820e02b19d7e
-vendor/lib64/libC2D2.so|175115cc36fd471f9eb83af76be21b5f602b9460
-vendor/lib64/libCB.so|16a3512cc54a8d482a25ae4f598be2a59b919ae5
-vendor/lib64/libOpenCL.so|5aecd08fbf5470c2ff467f2e54fb513c592d6272
-vendor/lib64/libVkLayer_q3dtools.so|6986703a4f85589829aa0e60d924621e532a54a6
-vendor/lib64/libadreno_utils.so|56b1d1b127eb571a584caf2ba12d5d069e9aed71
-vendor/lib64/libc2d30_bltlib.so|adbd12db0fbd7c840b75af49df450833afd9be58
-vendor/lib64/libgpudataproducer.so|b8adbfd6d03975f821e7b5857d9de0a047afd3be
-vendor/lib64/libgsl.so|b16047039badc627763014839ae6d379987a9779
-vendor/lib64/libllvm-glnext.so|c32e43fad7c41071c736ccc0daf311c3d72e52ef
-vendor/lib64/libllvm-qcom.so|6c19eabb6f1ed256bcc07cfd8596c48b968d4e68
+vendor/gpu/kbc/sequence_manifest.bin|cc050a8058904871b3cfabec74521d42f0a61a1f
+vendor/gpu/kbc/unified_kbcs_32.bin|503228f87adc71131aa8134659b00dffe073e973
+vendor/gpu/kbc/unified_kbcs_64.bin|d63c26959dc02b2efc251953e99dc6e7c32e7f6e
+vendor/gpu/kbc/unified_ksqs.bin|8f77dc004796d58acb959e78f4994c5d6b90baef
+vendor/lib/egl/eglSubDriverAndroid.so|cac529f4cc2381fc8985caded98dc7236d0de43f
+vendor/lib/egl/libEGL_adreno.so|c841ec471e3d40b541862c1b0a1d16fd56463cfa
+vendor/lib/egl/libGLESv1_CM_adreno.so|5ab7196d4c8ae861ff484cb6b1f4b5ac3c9738b4
+vendor/lib/egl/libGLESv2_adreno.so|82a74dc9dacd981a8974227048a87d1b3405ccbe
+vendor/lib/egl/libq3dtools_adreno.so|994551fb9b829caf80bb7a8f84b4b89cb3104ed9
+vendor/lib/egl/libq3dtools_esx.so|997559069f3246f908f8acc54147b5e763c04e12
+vendor/lib/libC2D2.so|1c89e545a5dabc94d27db32031594a792d91d6fd
+vendor/lib/libCB.so|ca8cbf62025f0df09c20d6c41a4654719fd9c60a
+vendor/lib/libOpenCL.so|d5642e23207996dbbc13273927127ecf04fced53
+vendor/lib/libVkLayer_q3dtools.so|19d40e4c5c6104e889acfff640ed9b68b02a8032
+vendor/lib/libadreno_app_profiles.so|eccf8e1bbf63d7524435f9bd30139b9a70cd935d
+vendor/lib/libadreno_utils.so|9e34c9d9a6859e682f9179d52e239d771423743c
+vendor/lib/libc2d30_bltlib.so|5dce0e76e03b9cac4fc1f104524625a6f561fe91
+vendor/lib/libgpudataproducer.so|9eb0f507b3badccfb0e10e9e9fe9a8c7df231d8e
+vendor/lib/libgsl.so|1251cef304314c8a924f86df0757a895847bee80
+vendor/lib/libkcl.so|4de6a2a00aed99c2f180ae5cf3ec03a96b3be2d7
+vendor/lib/libkernelmanager.so|09e05782cae3b8c5910d069c9d79eb4e58f2801d
+vendor/lib/libllvm-glnext.so|a9a11644abb8bd8bdddf4db02b3e7777d8ddbb83
+vendor/lib/libllvm-qcom.so|68bfbf4b6072af78106e7e96e252a664026015c0
+vendor/lib64/egl/eglSubDriverAndroid.so|ac9099723b30614cf7c61c667204a392959694db
+vendor/lib64/egl/libEGL_adreno.so|2fe7c58e7f040637f201cdfbfdaa8b8257daa514
+vendor/lib64/egl/libGLESv1_CM_adreno.so|b9e14710b9c2be024e1fdf77d60266423e484047
+vendor/lib64/egl/libGLESv2_adreno.so|2aacde9712052563c4b998ea5ac57018db1e2220
+vendor/lib64/egl/libq3dtools_adreno.so|172810bc218ab55fe95f628ab1c0d37833eb0021
+vendor/lib64/egl/libq3dtools_esx.so|abe73a7c9a90ad1c80d8ad8f5c942b902623e4f0
+vendor/lib64/libC2D2.so|0b4aa67ef7e86df61a1bfd7dfd4680e0f0d7104c
+vendor/lib64/libCB.so|cb69d5aa6cccd485774c8aea499dcd5b708af1cf
+vendor/lib64/libOpenCL.so|76d6d5f9e89d896665fdd06cbede3e21c92c8068
+vendor/lib64/libVkLayer_q3dtools.so|0013a3267134a2a7a4005680e8f6c2dbcafaa898
+vendor/lib64/libadreno_app_profiles.so|afa234cba7947e2d49da3ab649f9b5555a6cac06
+vendor/lib64/libadreno_utils.so|db15cf1f9edafe62a36b1dbb79ad45e56220dcd4
+vendor/lib64/libc2d30_bltlib.so|da219e655056ca4a765ce3f6cf2b992d75088269
+vendor/lib64/libgpudataproducer.so|3c12f4ee9e9df7cdfb586f20009cc69a313b5199
+vendor/lib64/libgsl.so|c9f0c740054d1360c2e59af32725ed16f239155d
+vendor/lib64/libkcl.so|505c6488d7c2c34ac6bcc578e6e90098553e5f4f
+vendor/lib64/libkernelmanager.so|6e34cfed1b61ef27ac3740cf477e1ed836695513
+vendor/lib64/libllvm-glnext.so|10ce1497960c732b8077cc1bd42e3d8dba96e943
+vendor/lib64/libllvm-qcom.so|01c37f8efc8362168666fc811082dbbee14fbcbd
 
-# Graphics (Vulkan) - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-vendor/lib/hw/vulkan.adreno.so|c611ef7f442dc43c94f8d210578d3aefe62f1474
-vendor/lib64/hw/vulkan.adreno.so|e05eb4e3e4c1d67f3094ed29ff8bef97a48e2385
+# Graphics (Vulkan) (vendor) - from LA.UM.9.14.r1-20200-LAHAINA.QSSI13.0
+vendor/lib/hw/vulkan.adreno.so|3c5fc46d3360688f198aa732bd265d655bbba1d5
+vendor/lib64/hw/vulkan.adreno.so|ef355a774941620917f1ba1f0b48c9193091aad4
 
 # HotwordEnrollment - from raphael-user-11-RKQ1.200826.002-V12.5.2.0.RFKMIXM-release-keys
 -product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|62e301d2f386771facd9a9aa546c0fcc241116da
