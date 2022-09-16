@@ -39,6 +39,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     OtoMusicPlayer
 
+# KProfiles
+PRODUCT_PACKAGES += \
+    KProfiles
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService-Soong \
