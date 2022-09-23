@@ -15,20 +15,20 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
-# Inherit some common VoltageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common SuperiorOS stuff.
+$(call inherit-product, vendor/superior/config/common.mk)
 
 # Official-ify
 BUILD_TYPE := UNOFFICIAL
 
-# Maintainer flag (one word only/no spacing)
-RICE_MAINTAINER := ΛＲＣＨＩＴΣＣＴツ(@SageOfD6Path)
+# Maintainer Flag (one word only/no spacing)
+MAINTAINER := ΛＲＣＨＩＴΣＣＴツ(@SageOfD6Path)
 
-# chipset flag (one word only/no spacing)
-RICE_CHIPSET := msmnile
+# CHIPSET flag (one word only/no spacing)
+CHIPSET := msmnile
 
-# gapps build flag, if not defined build type is vanilla
-WITH_GMS := true
+# GAPPS build flag, if not defined build type is vanilla
+BUILD_WITH_GAPPS := true
 
 # UDFPS ICONS/ANIMATIONS
 TARGET_HAS_UDFPS := true
@@ -36,23 +36,24 @@ TARGET_HAS_UDFPS := true
 # UDFPS animations
 EXTRA_UDFPS_ANIMATIONS := true
 
-# Sushi Bootanimation (only 720/1080p/1440 supported. if not defined, bootanimation is google bootanimation)
-SUSHI_BOOTANIMATION := 1080
+# Bootanimation Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
 
-# Graphene Camera
-TARGET_BUILD_GRAPHENEOS_CAMERA := true
+
+# Charging Animation
+TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Disable/Enable Blur Support, default is false
 TARGET_ENABLE_BLUR := true
 
-# Quick tap feature
+# Quick Tap Feature
 TARGET_SUPPORTS_QUICK_TAP := true
 
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_raphael
+PRODUCT_NAME := superior_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 9T Pro
