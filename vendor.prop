@@ -153,6 +153,9 @@ vendor.display.disable_ui_3d_tonemap=1
 vendor.display.enable_force_split=1
 vendor.display.enable_null_display=0
 vendor.display.enable_optimize_refresh=1
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
+
 persist.sys.sf.color_saturation=1.0
 vendor.display.qdcm.mode_combine=1
 persist.sys.sf.native_mode=0
