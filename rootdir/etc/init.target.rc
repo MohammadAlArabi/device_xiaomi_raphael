@@ -123,7 +123,9 @@ on post-fs-data
 
 on early-boot
     start vendor.sensors
-
+    # Enable suspend to RAM
+    write /sys/power/mem_sleep "deep"
+    
 on boot
     chown system system /sys/kernel/hbtp/display_pwr
     chown system system /sys/kernel/qvr_external_sensor/fd
