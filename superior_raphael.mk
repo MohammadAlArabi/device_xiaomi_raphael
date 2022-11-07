@@ -28,7 +28,7 @@ MAINTAINER := ΛＲＣＨＩＴΣＣＴツ(@SageOfD6Path)
 CHIPSET := msmnile
 
 # GAPPS build flag, if not defined build type is vanilla
-BUILD_WITH_GAPPS := true
+SUPERIOR_GAPPS = minimal
 
 # UDFPS ICONS/ANIMATIONS
 TARGET_HAS_UDFPS := true
