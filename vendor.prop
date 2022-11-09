@@ -147,6 +147,7 @@ debug.renderengine.backend=skiaglthreaded
 renderthread.skia.reduceopstasksplitting=true
 debug.hwui.renderer=opengl
 ro.vendor.perf.scroll_opt=true
+debug.sf.auto_latch_unsignaled=true
 
 # Incremental
 ro.incremental.enable=1
