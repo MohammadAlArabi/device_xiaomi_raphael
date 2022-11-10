@@ -18,27 +18,14 @@ $(call inherit-product, device/xiaomi/raphael/device.mk)
 # Inherit some common SuperiorOS stuff.
 $(call inherit-product, vendor/superior/config/common.mk)
 
-# Official-ify
-BUILD_TYPE := UNOFFICIAL
-
 # Maintainer Flag (one word only/no spacing)
 MAINTAINER := ΛＲＣＨＩＴΣＣＴツ(@SageOfD6Path)
-
-# CHIPSET flag (one word only/no spacing)
-CHIPSET := msmnile
 
 # GAPPS build flag, if not defined build type is vanilla
 SUPERIOR_GAPPS = minimal
 
-# UDFPS ICONS/ANIMATIONS
-TARGET_HAS_UDFPS := true
-
-# UDFPS animations
-EXTRA_UDFPS_ANIMATIONS := true
-
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
-
 
 # Charging Animation
 TARGET_INCLUDE_PIXEL_CHARGER := true
@@ -48,9 +35,6 @@ TARGET_ENABLE_BLUR := true
 
 # Quick Tap Feature
 TARGET_SUPPORTS_QUICK_TAP := true
-
-# Face Unlock
-TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := superior_raphael
