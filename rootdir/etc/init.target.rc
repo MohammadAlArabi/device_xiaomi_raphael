@@ -127,6 +127,10 @@ on property:sys.boot_completed=1
     write /sys/class/leds/vibrator/duration 100
     write /sys/class/leds/vibrator/boot_vibrator 1
 
+    # Dolby
+    mkdir /data/vendor/dolby 0770 media media
+    mkdir /data/vendor/multimedia 0775 system system
+
     # Kprofiles tune 
     write /sys/module/kprofiles/parameters/auto_kprofiles Y
     write /sys/module/kprofiles/parameters/kp_mode 2
