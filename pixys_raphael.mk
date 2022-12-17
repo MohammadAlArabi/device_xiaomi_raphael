@@ -12,23 +12,41 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from raphael device
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
-# Inherit some common Nusantara stuff.
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+# Inherit some common pixys stuff.
+$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
-# Nusantara Flags
-USE_GAPPS := true
-NAD_BUILD_TYPE := OFFICIAL
-EXTRA_FOD_ANIMATIONS := true
-TARGET_SUPPORTS_QUICK_TAP := true
+# Gapps Config
+BUILD_WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
 
-# Pixel Offline Charging
-USE_PIXEL_CHARGING := true
+# Live Wallpaper
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
-# Bootanimation
+# Google Recorder
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
+# UDFPS animations
+EXTRA_UDFPS_ANIMATIONS := true
+
+# Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := nad_raphael
+PRODUCT_NAME := pixys_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi

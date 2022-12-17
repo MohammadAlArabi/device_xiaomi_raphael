@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_raphael.mk
+    $(LOCAL_DIR)/pixys_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_raphael-user \
-    nad_raphael-userdebug \
-    nad_raphael-eng
+    pixys_raphael-user \
+    pixys_raphael-userdebug \
+    pixys_raphael-eng
