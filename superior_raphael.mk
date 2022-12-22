@@ -33,6 +33,8 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 # Disable/Enable Blur Support, default is false
 TARGET_ENABLE_BLUR := true
 
+#Udfps Stuff
+SUPERIOR_UDFPS_ANIMATIONS := true
 # Quick Tap Feature
 TARGET_SUPPORTS_QUICK_TAP := true
 
