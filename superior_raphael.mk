@@ -22,7 +22,7 @@ $(call inherit-product, vendor/superior/config/common.mk)
 MAINTAINER := ΛＲＣＨＩＴΣＣＴツ(@SageOfD6Path)
 
 # GAPPS build flag, if not defined build type is vanilla
-SUPERIOR_GAPPS = minimal
+SUPERIOR_GAPPS = full
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
