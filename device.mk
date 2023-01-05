@@ -303,7 +303,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.raphael
+    android.hardware.light-service.xiaomi
 
 # Media
 PRODUCT_PACKAGES += \
