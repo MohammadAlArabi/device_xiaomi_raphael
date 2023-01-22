@@ -20,6 +20,9 @@ genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary/msm_fb_ea_enab
 # HBM
 genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary/hbm                                                                       u:object_r:vendor_sysfs_graphics:s0
 
+# CSC DC Dimming
+genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary/dc_dim                            u:object_r:vendor_sysfs_graphics:s0
+
 # Health
 genfscon sysfs /class/power_supply/battery/capacity                                                 u:object_r:sysfs_battery_supply:s0
 genfscon sysfs /devices/platform/soc/884000.i2c/i2c-3/3-0066/power_supply/bq2597x-standalone        u:object_r:sysfs_battery_supply:s0
