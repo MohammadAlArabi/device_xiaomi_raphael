@@ -212,3 +212,16 @@ wifi.aware.interface=wifi-aware0
 
 # Zygote
 zygote.critical_window.minute=10
+
+#Enable NCS, TOF and HAF
+vendor.camera.enableNCSService=TRUE
+vendor.camera.enableTOFInterface=TRUE
+#system property for displayfeature hidl
+sys.displayfeature_hidl=true
+#system property for HBM mode
+vendor.hbm.enable=true
+#dualcam sat fallback setting
+persist.camera.sat.fallback.dist=40
+persist.camera.sat.fallback.dist.d=10
+persist.camera.sat.fallback.luxindex=330
+persist.camera.sat.fallback.lux.d=50
