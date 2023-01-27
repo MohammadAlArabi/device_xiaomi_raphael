@@ -115,9 +115,7 @@ PRODUCT_BOARD_PLATFORM := msmnile
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service_64
-
-PRODUCT_PACKAGES += \
+    android.hardware.camera.provider@2.4-service_64 \
     libcamera2ndk_vendor \
     libdng_sdk.vendor \
     libgui_vendor \
@@ -242,6 +240,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-service
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackagesRaphael
 
 # Storage health HAL
 PRODUCT_PACKAGES += \
