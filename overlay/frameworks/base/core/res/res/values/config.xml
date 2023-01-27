@@ -632,4 +632,7 @@
         <item>com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver</item>
         <item>com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver</item>
     </string-array>
+
+    <!-- Default state for LiveDisplay -->
+    <bool name="config_defaultCABC">true</bool>
 </resources>
