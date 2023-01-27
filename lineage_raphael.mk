@@ -28,11 +28,13 @@ TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
 # UDFPS animations
+EXTRA_UDFPS_ANIMATIONS := true
 TARGET_HAS_UDFPS := true
 TARGET_ENABLE_BLUR := true
 TARGET_SUPPORTS_QUICK_TAP := true
 # AlphaDroid
-ALPHA_MAINTAINER := Rumais
+ALPHA_BUILD_TYPE := OFFICIAL
+ALPHA_MAINTAINER := OnettBoots
 WITH_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
