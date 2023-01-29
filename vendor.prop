@@ -199,6 +199,9 @@ ro.vendor.perf.scroll_opt=true
 # Incremental
 ro.incremental.enable=1
 
+# FS-verity
+ro.apk_verity.mode=2
+
 # Keystore
 ro.hardware.keystore_desede=true
 
