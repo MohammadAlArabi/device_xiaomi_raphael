@@ -9,8 +9,8 @@ LOCAL_OVERRIDES_PACKAGES := \
     Maps \
     SoundAmplifierPrebuilt \
     PixelWallpapers2022 \
-    Crhome \
-    Crhome-Stub \
+    Photos \
+    Aperture \
     DevicePolicyPrebuilt \
     AmbientSensePrebuilt \
     YouTube \
