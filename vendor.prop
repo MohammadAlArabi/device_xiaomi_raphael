@@ -86,7 +86,7 @@ ro.crypto.volume.filenames_mode=aes-256-cts
 
 # Dalvik
 pm.dexopt.boot=verify
-pm.dexopt.first-boot=verify
+# pm.dexopt.first-boot=verify
 pm.dexopt.install=speed-profile
 dalvik.vm.image-dex2oat-filter=speed
 dalvik.vm.image-dex2oat-threads=8
@@ -137,6 +137,7 @@ debug.sdm.support_writeback=0
 debug.sf.latch_unsignaled=0
 debug.sf.enable_gl_backpressure=1
 debug.sf.disable_client_composition_cache=1
+debug.sf.frame_rate_multiple_threshold=102
 persist.sys.sf.color_saturation=1.0
 ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.msmnile.api30
 ro.hardware.egl=adreno
@@ -223,10 +224,3 @@ persist.camera.sat.fallback.dist=40
 persist.camera.sat.fallback.dist.d=10
 persist.camera.sat.fallback.luxindex=330
 persist.camera.sat.fallback.lux.d=50
-
-# Surfaceflinger
-debug.sf.enable_advanced_sf_phase_offset=1
-debug.sf.high_fps_early_gl_phase_offset_ns=-4000000
-debug.sf.high_fps_early_phase_offset_ns=-4000000
-debug.sf.high_fps_late_app_phase_offset_ns=1000000
-debug.sf.high_fps_late_sf_phase_offset_ns=-4000000
