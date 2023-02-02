@@ -204,6 +204,7 @@ vendor.gralloc.disable_ubwc=0
 debug.sf.treat_170m_as_sRGB=1
 debug.renderengine.backend=skiaglthreaded
 renderthread.skia.reduceopstasksplitting=true
+debug.sf.enable_egl_image_tracker=1
 
 # IFAAService
 persist.vendor.sys.fp.udfps.location.X_Y=445,1931
