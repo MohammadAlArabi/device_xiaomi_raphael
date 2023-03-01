@@ -47,6 +47,9 @@
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">100</integer>
 
+    <!-- Color of the FOD view -->
+    <color name="config_udfpsColor">#ff00fdff</color>
+
     <!-- Location on the screen of the center of the physical power button. -->
     <dimen name="physical_power_button_center_screen_location_y">950px</dimen>
 
