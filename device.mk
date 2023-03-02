@@ -25,7 +25,7 @@ $(call inherit-product, device/qcom/common/system/perf/qti-perf.mk)
 $(call inherit-product, device/qcom/common/vendor/perf-legacy/qti-perf-legacy.mk)
 
 # MiuiCamera
-$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
