@@ -634,6 +634,10 @@
 
     <!-- Display color inversion availability -->
     <bool name="config_displayInversionAvailable">false</bool>
+
+    <!-- Boost Framework -->
+    <bool name="config_supportsBoostFramework">true</bool>
+
     <!-- raphael not support auto refresh rate, so lets force min 60hz by default. -->
     <integer name="config_defaultRefreshRate">60</integer>
     <!-- The default peak refresh rate for a given device. Change this value if you want to allow
