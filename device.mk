@@ -24,11 +24,6 @@ $(call inherit-product, vendor/xiaomi/raphael/raphael-vendor.mk)
 $(call inherit-product, device/qcom/common/system/perf/qti-perf.mk)
 $(call inherit-product, device/qcom/common/vendor/perf-legacy/qti-perf-legacy.mk)
 
-
-
-# Gcam
-$(call inherit-product-if-exists, vendor/GcamBSG/GcamBSG-vendor.mk)
-
 # MiuiCamera
 $(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
 
