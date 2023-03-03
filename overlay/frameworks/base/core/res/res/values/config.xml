@@ -632,6 +632,9 @@
     <!-- Type of the double tap sensor. Empty if double tap is not supported. -->
      <string name="config_dozeDoubleTapSensorType" translatable="false">org.lineage.sensor.double_tap</string>
 
+    <!-- Whether device supports increased touch sensitvity -->
+    <bool name="config_supportGloveMode">true</bool>
+
     <!-- Display color inversion availability -->
     <bool name="config_displayInversionAvailable">false</bool>
 
