@@ -23,19 +23,15 @@ $(call inherit-product, device/xiaomi/raphael/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2340
-TARGET_SCREEN_WIDTH := 1080
-
-# UDFPS animations
-EXTRA_UDFPS_ANIMATIONS := true
-TARGET_HAS_UDFPS := true
+# RiceDroid Flags
+RICE_CHIPSET := msmnile
+RICE_MAINTAINER := Mohammad-Al-Arabi
+RICE_PACKAGE_TYPE := AOSP
+SUSHI_BOOTANIMATION := 1080
+TARGET_BUILD_GRAPHENEOS_CAMERA := false
+TARGET_BUILD_APERTURE_CAMERA := false
 TARGET_ENABLE_BLUR := true
-TARGET_SUPPORTS_QUICK_TAP := true
-# AlphaDroid
-ALPHA_BUILD_TYPE := OFFICIAL
-ALPHA_MAINTAINER := OnettBoots
-WITH_GAPPS := true
+TARGET_HAS_UDFPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_raphael
