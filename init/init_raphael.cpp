@@ -119,6 +119,10 @@ void vendor_load_properties() {
     }
 
     property_override("ro.apex.updatable", "false");
+   
+    // RiceDroid Properties
+    property_override("ro.rice.chipset", "Snapdragon 855");
+    property_override("ro.rice.maintainer", "Mohammad Al Arabi");
 
     // SafetyNet workaround
     property_override("ro.boot.verifiedbootstate", "green");
