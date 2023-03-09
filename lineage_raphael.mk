@@ -26,7 +26,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # RiceDroid Flags
 RICE_CHIPSET := Snapdragon 855
 RICE_MAINTAINER := Mohammad Al Arabi
-RICE_PACKAGE_TYPE := AOSP
+RICE_PACKAGE_TYPE := CORE_GMS
+WITH_GMS := true
+TARGET_CORE_GMS := true
 SUSHI_BOOTANIMATION := 1080
 TARGET_BUILD_GRAPHENEOS_CAMERA := false
 TARGET_BUILD_APERTURE_CAMERA := false
