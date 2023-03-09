@@ -24,8 +24,8 @@ $(call inherit-product, device/xiaomi/raphael/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # RiceDroid Flags
-RICE_CHIPSET := msmnile
-RICE_MAINTAINER := Mohammad-Al-Arabi
+RICE_CHIPSET := Snapdragon 855
+RICE_MAINTAINER := Mohammad Al Arabi
 RICE_PACKAGE_TYPE := AOSP
 SUSHI_BOOTANIMATION := 1080
 TARGET_BUILD_GRAPHENEOS_CAMERA := false
