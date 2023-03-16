@@ -8,3 +8,4 @@ service vendor.livedisplay-hal-2-1 /vendor/bin/hw/vendor.lineage.livedisplay@2.1
     class hal
     user system
     group system
+    task_profiles ServiceCapacityLow
