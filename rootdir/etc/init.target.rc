@@ -29,19 +29,7 @@
 
 import /vendor/etc/init/init.mi_thermald.rc
 
-on early-init
-    write /proc/sys/kernel/sched_boost 1
-
 on init
-    write /dev/stune/foreground/schedtune.sched_boost_no_override 1
-    write /dev/stune/top-app/schedtune.sched_boost_no_override 1
-
-    write /dev/stune/schedtune.colocate 0
-    write /dev/stune/background/schedtune.colocate 0
-    write /dev/stune/system-background/schedtune.colocate 0
-    write /dev/stune/foreground/schedtune.colocate 0
-    write /dev/stune/top-app/schedtune.colocate 1
-
     wait /dev/block/platform/soc/1d84000.ufshc
     symlink /dev/block/platform/soc/1d84000.ufshc /dev/block/bootdevice
 
@@ -173,10 +161,6 @@ on property:sys.boot_completed=1
     write /dev/cpuset/top-app/cpus 0-7
     write /dev/cpuset/foreground/cpus 0-2,4-7
     write /dev/cpuset/foreground/boost/cpus 4-7
-
-    # set default schedTune value for camera-daemon
-    write /dev/stune/camera-daemon/schedtune.prefer_idle 1
-    write /dev/stune/camera-daemon/schedtune.boost 0
 
     # palm_sensor
     chown system system /sys/class/touch/touch_dev/palm_sensor
