@@ -116,6 +116,12 @@ camera.disable_zsl_mode=true
 log.tag.CHIUSECASE=ERROR
 persist.vendor.camera.logInfoMask=false
 persist.vendor.camera.perflock.enable=0
+vendor.camera.sat.fallback.dist=40
+vendor.camera.sat.fallback.dist.d=10
+vendor.camera.sat.fallback.luxindex=330
+vendor.camera.sat.fallback.lux.d=50
+vendor.camera.enableNCSService=TRUE
+vendor.camera.enableTOFInterface=TRUE
 
 # Crypto
 ro.crypto.volume.filenames_mode=aes-256-cts
