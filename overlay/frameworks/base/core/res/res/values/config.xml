@@ -634,7 +634,10 @@
     <bool name="config_defaultCABC">true</bool>
 
     <!-- Type of the double tap sensor. Empty if double tap is not supported. -->
-     <string name="config_dozeDoubleTapSensorType" translatable="false">org.lineage.sensor.double_tap</string>
+    <string name="config_dozeDoubleTapSensorType" translatable="false">org.lineage.sensor.double_tap</string>
+
+    <!-- Auto-brightness sensor type string -->
+    <string name="config_displayLightSensorType">"android.sensor.light"</string>
 
     <!-- Whether device supports increased touch sensitvity -->
     <bool name="config_supportGloveMode">true</bool>
