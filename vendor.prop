@@ -166,6 +166,9 @@ ro.vendor.display.sensortype=2
 # DRM
 drm.service.enabled=true
 
+# Fastbootd
+ro.fastbootd.available=true
+
 # FM
 vendor.hw.fm.init=0
 
