@@ -576,9 +576,6 @@
         <item>95</item>   <!-- <item>sensorRadius</item> -->
     </integer-array>
 
-    <!-- How long it takes for the HW to start illuminating after the illumination is requested. -->
-    <integer name="config_udfps_illumination_transition_ms">0</integer>
-
     <!-- Night display color temperature calibration -->
     <string-array name="config_nightDisplayColorTemperatureCoefficients">
         <!-- R a-coefficient --> <item>0.0</item>
