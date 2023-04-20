@@ -35,6 +35,10 @@
          The default is false. -->
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
 
+    <!-- If an any motion sensor is not available, prefer the wrist tilt detector over the
+     SMD. -->
+    <bool name="config_autoPowerModePreferWristTilt">true</bool>
+
     <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
     <bool name="config_automatic_brightness_available">true</bool>
