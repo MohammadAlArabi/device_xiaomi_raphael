@@ -73,5 +73,5 @@
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">1900px</dimen>
 
 <!-- Whether show refresh rate QS tile -->
-    <bool name="config_showRefreshRateQsTile">true</bool>
+    <bool name="config_showRefreshRateQsTile">false</bool>
 </resources>
