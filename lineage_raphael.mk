@@ -23,15 +23,11 @@ $(call inherit-product, device/xiaomi/raphael/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# RiceDroid Flags
-RICE_CHIPSET := Snapdragon 855
-RICE_MAINTAINER := Mohammad Al Arabi
-RICE_PACKAGE_TYPE := CORE_GMS
-WITH_GMS := true
+# RisingOs Flags
+RISING_CHIPSET := Snapdragon 855
+RISING_MAINTAINER := Mohammad Al Arabi
+RISING_PACKAGE_TYPE := CORE_GMS
 TARGET_CORE_GMS := true
-SUSHI_BOOTANIMATION := 1080
-TARGET_BUILD_GRAPHENEOS_CAMERA := false
-TARGET_BUILD_APERTURE_CAMERA := false
 TARGET_ENABLE_BLUR := true
 TARGET_HAS_UDFPS := true
 
