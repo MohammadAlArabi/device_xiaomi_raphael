@@ -100,6 +100,8 @@ persist.vendor.qcom.bluetooth.twsp_state.enabled=true
 ro.bluetooth.a2dp_offload.supported=true
 ro.vendor.bluetooth.wipower=false
 vendor.qcom.bluetooth.soc=cherokee
+persist.bluetooth.bqr.event_mask=30
+persist.bluetooth.bqr.min_interval_ms=500
 
 # Blur
 persist.sys.sf.disable_blurs=1
