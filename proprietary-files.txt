@@ -1075,6 +1075,13 @@ vendor/lib64/libdsutils.so|9a9260a111c41c1d7107eb6fb48c2402257d473f
 vendor/lib64/libidl.so|857f7a75a51ade7d3621f7fa6da0e9461244ca01
 vendor/lib64/libmdmdetect.so|4dee2a700aad658f3f30a6da069c867307ed371c
 
+# QSPM
+vendor/bin/vendor.qti.qspmhal@1.0-service
+vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc
+vendor/etc/seccomp_policy/qspm.policy
+vendor/lib64/vendor.qti.qspmhal@1.0-impl.so
+vendor/lib64/vendor.qti.qspmhal@1.0.so
+
 # QTEE - from LA.UM.9.1.r1-10600-SMxxx0.0
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|a12cd8a3d326609ee0f0a0cdb5cfc69bd2085f1e
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|c966350ee67d3a7c73ca7184e3725264025d16f5
