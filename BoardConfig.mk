@@ -64,6 +64,9 @@ BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 # Camera
 MALLOC_SVELTE_FOR_LIBC32 := true
 
+# Camera
+MALLOC_SVELTE := true
+
 # Display
 BOARD_USES_ADRENO := true
 TARGET_USES_COLOR_METADATA := true
@@ -246,4 +249,3 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
 include vendor/xiaomi/raphael/BoardConfigVendor.mk
-
