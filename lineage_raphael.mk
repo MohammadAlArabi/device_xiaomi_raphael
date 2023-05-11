@@ -15,35 +15,21 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
-# Inherit some common SuperiorOS stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
+# Inherit some common lineageOS stuff.
+$(call inherit-product, vendor/lineage/config/common.mk)
 
-# Maintainer Flag (one word only/no spacing)
-MAINTAINER := ΛＲＣＨＩＴΣＣＴツ(@SageOfD6Path)
-
-# GAPPS build flag, if not defined build type is vanilla
-#SUPERIOR_GAPPS = full
-
-# Bootanimation Resolution
-TARGET_BOOT_ANIMATION_RES := 1080
-
-# Charging Animation
-TARGET_INCLUDE_PIXEL_CHARGER := true
-
-# Disable/Enable Blur Support, default is false
+# RisingOs flags
+RISING_CHIPSET := SDM855
+RISING_MAINTAINER := Mohammad-Al-Arabi
+RISING_PACKAGE_TYPE := GAPPS
+WITH_GMS := true
+TARGET_CORE_GMS := false
+TARGET_CORE_GMS_EXTRAS := false
+TARGET_HAS_UDFPS := true
 TARGET_ENABLE_BLUR := true
 
-# Officialify 
-SUPERIOR_OFFICIAL := true
-
-#Udfps Stuff
-SUPERIOR_UDFPS_ANIMATIONS := true
-
-# Quick Tap Feature
-TARGET_SUPPORTS_QUICK_TAP := true
-
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := superior_raphael
+PRODUCT_NAME := lineage_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 9T Pro
