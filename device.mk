@@ -191,6 +191,10 @@ PRODUCT_COPY_FILES += \
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 
+# HBM
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/display_id_4630946693002713985.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946693002713985.xml
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey \
