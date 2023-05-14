@@ -30,9 +30,6 @@
     <!-- Preferred max refresh rate at keyguard, if supported by the display. -->
     <integer name="config_keyguardMaxRefreshRate">60</integer>
 
-    <!-- Whether to find optimal display refresh rate when using udfps -->
-    <bool name="config_udfpsOptimalRefreshRate">false</bool>
-
     <!-- Update battery info every second when device is charging -->
     <bool name="config_alternateFastchargeInfoUpdate">true</bool>
 </resources>
