@@ -35,6 +35,7 @@ allow xiaomiparts_app device_state_service:service_manager { find };
 allow xiaomiparts_app game_service:service_manager { find };
 allow xiaomiparts_app netstats_service:service_manager { find };
 allow xiaomiparts_app wallpaper_service:service_manager { find };
+allow xiaomiparts_app voiceinteraction_service:service_manager { find };
 
 allow xiaomiparts_app system_data_file:dir search;
 
