@@ -89,6 +89,7 @@ persist.rcs.supported=1
 # Radio
 DEVICE_PROVISIONED=1
 persist.radio.multisim.config=dsds
+persist.sys.radio.force_lte_ca=true
 persist.radio.NO_STAPA=1
 persist.radio.VT_HYBRID_ENABLE=1
 persist.sys.fflag.override.settings_provider_model=false
