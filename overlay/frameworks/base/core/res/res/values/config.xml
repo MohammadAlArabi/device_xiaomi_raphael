@@ -436,6 +436,7 @@
         <item>/system/lib64/libRSDriver.so</item>
         <item>/system/lib64/libRSCpuRef.so</item>
         <item>/system/lib64/libblas.so</item>
+        <item>"/vendor/lib64/hw/fingerprint.goodix_fod.msmnile.so"</item>
     </string-array>
 
     <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
