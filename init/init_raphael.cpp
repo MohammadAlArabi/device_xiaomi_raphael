@@ -122,9 +122,6 @@ void vendor_load_properties() {
     property_override("ro.rising.chipset", "Qualcomm® Snapdragon™ 855");
     property_override("ro.rising.maintainer", "𝙈𝙤𝙝𝙖𝙢𝙢𝙖𝙙 𝘼𝙡 𝘼𝙧𝙖𝙗𝙞");
 
-    // SafetyNet workaround
-    property_override("ro.boot.verifiedbootstate", "green");
-
     set_ro_product_prop("device", device);
     set_ro_product_prop("model", model);
     property_override("ro.build.description", description.c_str());
