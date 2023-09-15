@@ -33,16 +33,14 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a76
 
 # ANT+
-BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
+BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := raphael,raphaelin
 
 # Audio
-AUDIO_FEATURE_ENABLED_A2DP_OFFLOAD := true
 AUDIO_FEATURE_ENABLED_AAC_ADTS_OFFLOAD := true
 AUDIO_FEATURE_ENABLED_AUDIOSPHERE := true
-AUDIO_FEATURE_ENABLED_COMPRESS_VOIP := true
 AUDIO_FEATURE_ENABLED_EXTN_FORMATS := true
 AUDIO_FEATURE_ENABLED_HDMI_SPK := true
 AUDIO_FEATURE_ENABLED_INSTANCE_ID := true
@@ -54,9 +52,6 @@ BOARD_SUPPORTS_SOUND_TRIGGER := true
 AUDIO_FEATURE_ENABLED_EXT_AMPLIFIER := true
 
 # Bluetooth
-BOARD_HAVE_BLUETOOTH_QCOM := true
-TARGET_USE_QTI_BT_STACK := true
-TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
 # Bootloader
@@ -102,6 +97,9 @@ DEVICE_MATRIX_FILE := \
 
 ODM_MANIFEST_FILES += \
     $(DEVICE_PATH)/vintf/manifest-qva.xml
+
+ODM_MANIFEST_SKUS += raphael
+ODM_MANIFEST_RAPHAEL_FILES := $(DEVICE_PATH)/vintf/manifest_nfc.xml
 
 # Kernel
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 earlycon=msm_geni_serial,0xa90000
@@ -201,9 +199,6 @@ USE_SENSOR_MULTI_HAL := true
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 include device/xiaomi/raphael/sepolicy/sepolicy.mk
-
-# SurfaceFlinger
-TARGET_USE_AOSP_SURFACEFLINGER := true
 
 # Vendor init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_raphael

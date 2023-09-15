@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
- * Copyright (c) 2018, The Android Open Source Project
+ * Copyright (c) 2022 VoltageOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,13 +17,11 @@
 -->
 <resources>
 
-    <!-- Height of the status bar -->
-    <dimen name="status_bar_height">35dp</dimen>
+    <!-- Bottom margin size when fingerprint in display is active -->
+    <dimen name="keyguard_indication_margin_bottom_fingerprint_in_display">25dp</dimen>
 
-    <!-- Radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius">103px</dimen>
-
-    <!-- Adjustment for software rounded corners since corners aren't perfectly round. -->
-    <dimen name="rounded_corner_radius_adjustment">19px</dimen>
+    <!-- Udfps fingerprint animation -->
+    <dimen name="udfps_animation_size">240dp</dimen>
+    <dimen name="udfps_animation_offset">35dp</dimen>
 
 </resources>
