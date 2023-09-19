@@ -15,13 +15,19 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+# Inherit some common RisingOs stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Bootanimation Resolution
+# RisingOs Flags
+RISING_CHIPSET := SDM855
+RISING_MAINTAINER := Mohammad-Al-Arabi
+WITH_GMS := false
+TARGET_HAS_UDFPS := true
+TARGET_ENABLE_BLUR := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := evolution_raphael
+PRODUCT_NAME := lineage_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 9T Pro
@@ -31,11 +37,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="raphael"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-EXTRA_UDFPS_ANIMATIONS := true
-
-# Quick Tap
-TARGET_SUPPORTS_QUICK_TAP := true
-
-# Face Unlock
-TARGET_FACE_UNLOCK_SUPPORTED := true
