@@ -67,4 +67,7 @@
 
     <!-- Display color inversion availability -->
     <bool name="config_displayInversionAvailable">false</bool>
+
+    <!-- Whether to enable Lineage Health Service -->
+    <bool name="config_lineageHealthSupported">true</bool>
 </resources>
