@@ -45,9 +45,18 @@ persist.vendor.ims.disableQXDMLogs=1
 persist.vendor.radio.report_codec=1
 persist.vendor.radio.vdp_on_ims_cap=1
 
-# LMKD
-ro.config.low_ram=false
-ro.lmk.log_stats=true
+# Logs
+persist.log.tag.AnalyticsService=S
+persist.log.tag.KernelCpuUidActiveTimeReader=S
+persist.log.tag.Tracer=S
+persist.log.tag.NearbySharing=S
+persist.log.tag.IntervalStats=S
+persist.log.tag.CompatibilityChangeReporter=S
+persist.log.tag.SQLiteLog=S
+persist.log.tag.wificond=S
+persist.log.tag.b/223498680=S
+persist.log.tag.TrafficStats=S
+persist.log.tag.ContrastColorUtil=S
 
 # Logd buffer size
 ro.logd.size=2M
