@@ -210,6 +210,7 @@ ro.hwui.render_ahead=20
 vendor.gralloc.disable_ubwc=0
 debug.sf.treat_170m_as_sRGB=1
 debug.sf.enable_egl_image_tracker=1
+debug.sf.enable_transaction_tracing=false
 
 # OpenGL
 debug.hwui.renderer=opengl
