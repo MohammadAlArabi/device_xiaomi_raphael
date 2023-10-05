@@ -832,14 +832,6 @@ vendor/lib64/libllvm-qcom.so|cc4be65b93128742f5ee9bec9cbf4ad65a88fa1d
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
 system_ext/framework/com.android.hotwordenrollment.common.util.jar|bef92589e75a6da6043f85f4b9b0e85866429624
 
-# IOP - from LA.UM.9.1.r1-10900-SMxxx0.0
-vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|1eff9eb5e9879afa0df24243ec6a5c0d153b5200
-vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc|fd11367b2585702190ef2577ce2ce6fc68f3a2f8
-vendor/lib64/libqti-iopd-client.so|041e79a67f1537a0a77650d1f729d55f50f9b30b
-vendor/lib64/libqti-iopd.so|337b353e72bf0ade636759e649475cb52221ea6f
-vendor/lib64/vendor.qti.hardware.iop@1.0.so|162a2488ad279f7582e05326e88b4ca12ae319a0
-vendor/lib64/vendor.qti.hardware.iop@2.0.so|a520fd07df2a5a6ea78372300978baf6deaf89da
-
 # Keymaster (vendor) - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/bin/hw/android.hardware.keymaster@4.0-strongbox-service-qti
@@ -925,7 +917,6 @@ vendor/lib64/libnpu.so|7e194d36b17c265ac3d363ff4879aa6e9ca7d631
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
 vendor/lib/libFlacSwDec.so
-vendor/lib/libMpeg4SwEncoder.so
 vendor/lib/libOmxAacDec.so
 vendor/lib/libOmxAlacDec.so
 vendor/lib/libOmxAlacDecSw.so
@@ -947,7 +938,6 @@ vendor/lib/libswvdec.so
 vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
 vendor/lib64/libFlacSwDec.so
-vendor/lib64/libMpeg4SwEncoder.so
 vendor/lib64/libOmxAacDec.so
 vendor/lib64/libOmxAlacDec.so
 vendor/lib64/libOmxAlacDecSw.so
@@ -972,47 +962,6 @@ vendor/lib64/hw/vendor.qti.power.pasrmanager@1.0-impl.so|dd02b85c8732e934d4054b4
 vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so|f9daa32eae1410ecc258d1bede6b0b51289d6892
 vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so|dab1ce59502c375105db1ca06c7048735ee024c0
 vendor/lib64/vendor.qti.power.pasrmanager@1.0.so|ac738d8aba807b3b150618ae89a9994453fd7b1f
-
-# Perf (vendor) - from LA.UM.9.1.r1-12900-SMxxx0.0
-vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|4627a51573e47a54ebf96ea3623d647588a84277
-vendor/bin/msm_irqbalance|b075c2f4092c175950a2c26d19bf2013e2efd6d5
-vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc|459b4c23550a56ac545f78c6d391f3d7dd9ba45b
-vendor/etc/lm/AdaptLaunchFeature.xml|ad4516342729e79a8914762c2737f7faa08b1e9d
-vendor/etc/lm/AppClassifierFeature.xml|80bcbf8fc50ed706e8549432140323dbb9e8ae4c
-vendor/etc/lm/GameOptimizationFeature.xml|d88a79b80e93b04ce7c0371e6e46f2d8d39b6d50
-vendor/etc/perf/commonresourceconfigs.xml|c80efdafc6c5ef4fe0602f4ffe3137092513db38
-vendor/etc/perf/perfboostsconfig.xml|93e57b38e327bfbc174e925d639745e66949229b
-vendor/etc/perf/targetconfig.xml|95f511bb4030b2755a0b340814fe41cccac994ab
-vendor/etc/perf/targetresourceconfigs.xml|44e33511b57320fade366bfd5be83dcf5930f540
-vendor/etc/msm_irqbalance.conf|0141a3e34175f62a3ae1f0f44cca94cf7043f2de
-vendor/lib/libperfconfig.so|6fa5d6abf45071631e019bd66e36aacb13abbd44
-vendor/lib/libperfgluelayer.so|f524471e9d3906be59404b04526928be53c3d91a
-vendor/lib/libperfioctl.so|00164c19fa1dbf534f15b0a8bc2fc8d3a11ee2fb
-vendor/lib/libqti-perfd-client.so|950db15ae0975e1fca303f68e6225fdccb1e65a0
-vendor/lib/libqti-perfd.so|75bbba5df2bb91ce27c086d21e41ea7663833550
-vendor/lib/libqti-util.so|0df759036ecbcd6f3f941ed343191ada8a7fd452
-vendor/lib/libqti-utils.so|1df46366eddff178367dc9e1cb591c966850a34c
-vendor/lib/libskewknob.so|a33754cdc04a0fced49e2ef357e65abbf0242206
-vendor/lib/vendor.qti.hardware.perf@2.0.so|ba44ea3281d3835bca0a841d85b6da2e3a5af7e5
-vendor/lib/vendor.qti.hardware.perf@2.1.so|6fe840d4d24ea7d8d7067a640e422e2d2551c62d
-vendor/lib/vendor.qti.hardware.perf@2.2.so|d3de59c1be5defb6f733b27476dcf17026c18b1a
-vendor/lib64/libadaptlaunch.so|610d4811b6d5e2d76487a83d75ab3614985eb362
-vendor/lib64/libappclassifier.so|684c838a9968ea09685e5edbe990ee5bee91a9a8
-vendor/lib64/libgameoptfeature.so|e9b0b552cc316ba80376db60bea9894ae3be4cfe
-vendor/lib64/liblearningmodule.so|064545ff65df121399113d3561ec82a0b135766c
-vendor/lib64/libmeters-ns.so|0c177ca6998f74b2300808259102d4295c335e08
-vendor/lib64/libmeters.so|5b929c11eb2976fcab2934848a0d0b49b0fafb36
-vendor/lib64/libperfconfig.so|06fc5f5cfb6dae18bba45372ff424a97769a60dd
-vendor/lib64/libperfgluelayer.so|5fd74627e6da137083a450e542673d4027d43d57
-vendor/lib64/libperfioctl.so|2d100455539eff776a993e1df6751cda6e584581
-vendor/lib64/libqti-perfd-client.so|62c21bcb8cac644c702fb53e3274ccdb1298c42d
-vendor/lib64/libqti-perfd.so|cd9c5dc9c440101f803e4393e28aad0bffda7284
-vendor/lib64/libqti-util.so|48519e0baba84978b8593576579d33cd78cd0f8f
-vendor/lib64/libreffeature.so|c5666075d867d8d1c1514bc3763c3a23476d783e
-vendor/lib64/libskewknob.so|b44e11b2dec633950eb40a28b4e6be2d7a7e7da5
-vendor/lib64/vendor.qti.hardware.perf@2.0.so|b08deb0567cbbcb608eb2901d6e819b3c61b6f9e
-vendor/lib64/vendor.qti.hardware.perf@2.1.so|90f9b92cd6af5fee83c6891d1ecd18c97624fb72
-vendor/lib64/vendor.qti.hardware.perf@2.2.so|88c13e106ade95b947f64de3199602a43beb3034
 
 # Peripheral manager - from LA.UM.9.1.r1-10900-SMxxx0.0
 vendor/bin/pm-proxy|0704192692efb4b79e8cb1a2252625ad24468805
