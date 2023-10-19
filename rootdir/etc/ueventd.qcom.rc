@@ -502,3 +502,6 @@ firmware_directories /vendor/firmware_mnt/image/
 
 # Battery
 /sys/class/power_supply/battery                         input_suspend                   0660    system  system
+
+# HBM
+/sys/devices/platform/soc/soc:qcom,dsi-display-primary	hbm				                0660	system	system

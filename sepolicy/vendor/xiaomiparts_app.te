@@ -1,0 +1,6 @@
+r_dir_file(xiaomiparts_app, vendor_sysfs_graphics, vendor_sysfs_hbm)
+allow xiaomiparts_app vendor_sysfs_graphics:dir { search };
+allow xiaomiparts_app vendor_sysfs_graphics:file { write };
+allow xiaomiparts_app vendor_sysfs_hbm:file { write };
+allow xiaomiparts_app vendor_sysfs_hbm:file { open };
+allow xiaomiparts_app vendor_sysfs_hbm:file { getattr };
