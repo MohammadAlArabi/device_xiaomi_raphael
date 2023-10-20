@@ -218,3 +218,17 @@ ro.surface_flinger.set_idle_timer_ms?=80
 ro.surface_flinger.set_touch_timer_ms=200
 ro.surface_flinger.set_display_power_timer_ms=1000
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
+
+# Touch Hax 
+touch.size.scale=1
+touch.size.bias=0
+touch.size.isSummed=0
+touch.pressure.scale=0.001
+touch.distance.calibration=none
+touch.distance.scale=0
+touch.coverage.calibration=box
+touch.gestureMode=spots
+MultitouchSettleInterval=1ms
+MultitouchMinDistance=1px
+TapInterval=1ms
+TapSlop=1px
