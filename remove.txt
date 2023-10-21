@@ -1,0 +1,8 @@
+device/xiaomi
+vendor/xiaomi
+kernel/xiaomi
+hardware/xiaomi
+hardware/qcom-caf/sm8150/display
+vendor/xiaomi/miuicamera
+vendor/qcom/common
+device/qcom/common
