@@ -34,7 +34,8 @@
         android:directBootAware="true"
         android:theme="@style/Theme.SubSettingsBase">
 
-        <receiver android:name=".BootCompletedReceiver">
+        <receiver android:name=".BootCompletedReceiver"
+            android:exported="false">
             <intent-filter android:priority="1000">
                 <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -43,6 +44,7 @@
 
         <activity
             android:name=".dirac.DiracActivity"
+            android:exported="false"
             android:label="@string/dirac_title">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
@@ -64,6 +66,7 @@
 
         <service
             android:name=".display.DcDimmingTileService"
+            android:exported="true"
             android:icon="@drawable/ic_dc_tile"
             android:label="@string/dc_dimming_enable_title"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
@@ -75,6 +78,7 @@
 
         <service
             android:name=".display.HBMTileService"
+            android:exported="true"
             android:icon="@drawable/ic_hbm_tile"
             android:label="@string/hbm_mode_title"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
@@ -86,6 +90,7 @@
 
         <activity
             android:name=".doze.DozeSettingsActivity"
+            android:exported="false"
             android:label="@string/ambient_display_title">
             <intent-filter>
                 <action android:name="org.lineageos.settings.device.DOZE_SETTINGS" />
@@ -108,6 +113,7 @@
 
         <activity
             android:name=".popupcamera.PopupCameraSettingsActivity"
+            android:exported="false"
             android:label="@string/popup_title">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
@@ -129,6 +135,7 @@
 
         <activity
             android:name=".speaker.ClearSpeakerActivity"
+            android:exported="false"
             android:label="@string/clear_speaker_title">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
@@ -143,6 +150,7 @@
 
 		<activity
             android:name=".display.DisplaySettingsActivity"
+            android:exported="false"
             android:label="@string/display_settings_title">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
